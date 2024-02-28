@@ -1,52 +1,24 @@
 # Project Name
 
 ## Primary scientists and contributors
-- Mark Bartlett (Mark.Bartlett@gmail.com) 
+- Patrick Bodilly Kane (pkane@thewaterinstitute.org)  
+- Nastaran Tebyanian (ntebyanian@thewaterinstitute.org)
+
 
 ## Project objective
-Machine Learning for...
+
+Key Drivers of Vulnerability to Rainfall Flooding in New Orleans
+Patrick Bodilly Kane, Nastaran Tebyanian, Daniel Gilles, Brett McMann1 & Jordan R. Fischbach
+
+Keywords: Robust Decision Making, Decision Making Under Deep Uncertainty, Stormwater Management, SWMM, Spatial Decision Making.
+Abstract
+Future urban stormwater flood risk is determined by the confluence of both climate-driven changes in precipitation patterns and the effectiveness of flood mitigation systems, such as urban drainage and pump systems. This is especially true in coastal cities protected by levee systems like New Orleans, where even present-day rainfall would be enough to cause serious flooding in the absence of extensive stormwater drainage and pumping. However, while the uncertainties associated with climate change have been well studied, uncertainties in infrastructure performance and operation have received less attention. We investigated how these interrelated sets of uncertainties drive flood risk in New Orleans using a Robust Decision Making (RDM) approach. RDM is a framework for Decision Making Under Deep Uncertainty (DMDU) that leverages simulation models to facilitate exploration across many possible futures and the identification of decision-relevant scenarios. For our work, we leveraged a detailed Storm Water Management Model (SWMM) representation of the New Orleans urban stormwater management system to examine flood depths across the city when faced with different levels of future precipitation, sea-level rise, drainage pipe obstruction, and pumping system failure. We also estimated direct flood damage for each neighborhood in the city for this scenario ensemble. These damage estimates were then subjected to vulnerability analysis using scenario discovery—a technique designed to determine which combinations of uncertainties are most stressful to the system in terms of an outcome of interest (excess flood damage). Our results suggest that key drivers of vulnerability depend on geographic scale. Specifically, we find that possible climate-driven precipitation increases are the most important determinant of vulnerability at the citywide level. However, for some individual neighborhoods, infrastructure operation challenges under present day conditions are a more significant driver of vulnerability than possible climate-driven precipitation increases.
+
 
 ## Project scope
+The repository contains code to replicate the vulnerability analysis for the paper “Key Drivers of Vulnerability to Rainfall Flooding in New Orleans”
 
-### Problems solved
 
-- Faster..
-- Go beyond...
-- Achieve high performance benchmark ...
-- Reduce cost...
-
-### Metrics for success
-
-- MLE metrics:
-    - F1 score
-    - Inference time
-
-- Data metrics:
-    - Ability to benchmark against...
-    - Train with observations...
-
-- Reproducibility:
-    - Ability to recreate data, ML, and deployment stages using pipeline
-
-- Scientific soundness:
-    - Data pre-processing - feature engineering based on state-of-the-science literature
-    - Publish based on methodology developed for this projects
-
-### Resources
-
-- AWS...Google Cloud...etc.:
-    - ML Workspace
-        - Track experiments and register models according to the metrics in the `src/models` directory
-        - Serve real-time endpoints
-    - DevOps
-        - Model training repository...
-        - Pipelines repository
-    - Computer Target (Databricks, etc.)
-        - Jobs: run training and deployment jobs automatically
-        - Feature store (to be used)
-    - Storage
-        - Critical piece to speed up inference as pre-processed data can be saved
-    - Kubernetes..
 
 ### Data
 
